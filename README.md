@@ -6,9 +6,17 @@ connect to a given chef automate instance using a token, and retrieve
 a list of local users, which it can then compare to the usernames in 
 the inspec control. 
 
+
 Run this locally
 
 `inspec exec automateapi`
+
+Don't forget to export your api token
+eg 
+```
+export AUTOMATE_TOKEN=<myautomatetokenshouldbehere>
+```
+
 
 Sample output
 ```
