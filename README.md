@@ -20,7 +20,8 @@ Sample output
 
 Alternatively, to validate your environment, you can also run this simply using bash and curl, see below:- 
 
-```#!/usr/bin/bash
+```
+#!/usr/bin/bash
 TOKEN=<replacemewithyourtoken>
 curl -v -k -X GET https://automate.local.success.chef.co/apis/iam/v2/users \
 -H "api-token: $TOKEN" \
