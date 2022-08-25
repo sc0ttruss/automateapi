@@ -11,8 +11,8 @@ Run this locally
 `inspec exec automateapi`
 
 Sample output
-
-```✔  list local users 001: List all local users in a given Automate instance
+```
+   ✔  list local users 001: List all local users in a given Automate instance
     ✔  automate usernames is expected to include "Scott"
     ✔  automate usernames is expected to include "Local Administrator"
     ✔  automate usernames.size is expected to be <= 2
